@@ -77,3 +77,60 @@ button:hover {
     margin-top: 20px;
     font-size: 25px;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+        border-width: 20px;
+    }
+
+    input[type="number"] {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .result {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+        border-width: 15px;
+        border-radius: 30px;
+    }
+
+    input[type="number"] {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .result {
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+}
